@@ -1,3 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@font-face {
+  font-family: "TahomaBold";
+  src: url("/fonts/Tahoma-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maple";
+  src: url("/fonts/Maple-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
