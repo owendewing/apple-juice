@@ -26,7 +26,7 @@ export default function HeroSlideshow() {
   }, []);
 
   return (
-    <div className="relative w-screen h-screen bg-black flex items-center justify-center">
+    <div className="relative w-full h-screen bg-black flex items-center justify-center">
       {images.map((src, i) => (
         <img
           key={i}
@@ -38,7 +38,7 @@ export default function HeroSlideshow() {
         />
       ))}
       <div className="absolute bottom-30 left-30 z-10 max-w-xl">
-        <h1 className="font-secondary text-white text-5xl md:text-7xl tracking-wide text-left">
+        <h1 className="font-secondary text-white text-5xl md:text-7xl tracking-wide text-left drop-shadow-[0_10px_30px_rgba(0,0,0,0.95)]">
           INCLUSION WITH INTENTION
         </h1>
       </div>

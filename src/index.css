@@ -3,13 +3,18 @@
 @font-face {
   font-family: "TahomaBold";
   src: url("/fonts/Tahoma-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Maple";
   src: url("/fonts/Maple-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+}
+
+/* Tailwind utility classes */
+.font-main {
+  font-family: "TahomaBold", sans-serif;
+}
+
+.font-secondary {
+  font-family: "Maple", sans-serif;
 }
