@@ -77,11 +77,11 @@ export default function About() {
       </div>
 
       {/* BOARD OF TRUSTEES */}
-      <div className="max-w-6xl mx-auto px-8 pb-32">
+      {/* <div className="max-w-6xl mx-auto px-8 pb-32">
         <h2 className="text-4xl mb-12 font-main">Board of Trustees</h2>
 
         <div className="grid md:grid-cols-3 gap-12">
-          {/* Placeholder board member */}
+
           <div className="text-center">
             <div className="w-48 h-48 bg-neutral-800 mx-auto mb-4"></div>
             <p className="text-lg font-main">Board Member Name</p>
@@ -109,7 +109,7 @@ export default function About() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* BIO MODAL */}
       {showBio && (

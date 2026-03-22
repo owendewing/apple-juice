@@ -26,7 +26,7 @@ export default function HeroSlideshow() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen bg-black flex items-center justify-center">
+    <div className="relative w-full h-[50vh] sm:h-[70vh] md:h-[85vh] lg:h-screen bg-black flex items-center justify-center">
       {images.map((src, i) => (
         <img
           key={i}
@@ -37,8 +37,15 @@ export default function HeroSlideshow() {
           }`}
         />
       ))}
-      <div className="absolute bottom-30 left-30 z-10 max-w-xl">
-        <h1 className="font-secondary text-white text-5xl md:text-7xl tracking-wide text-left drop-shadow-[0_10px_30px_rgba(0,0,0,0.95)]">
+      <div
+        className="absolute z-10 
+  max-w-55 sm:max-w-xs md:max-w-lg lg:max-w-xl
+  bottom-10 left-6 
+  sm:bottom-16 sm:left-10 
+  md:bottom-24 md:left-16 
+  lg:bottom-30 lg:left-30"
+      >
+        <h1 className="font-secondary text-white text-3xl sm:text-4xl md:text-6xl lg:text-7xl tracking-wide text-left drop-shadow-[0_10px_30px_rgba(0,0,0,0.95)]">
           INCLUSION WITH INTENTION
         </h1>
       </div>

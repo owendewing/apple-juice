@@ -1,9 +1,22 @@
 import { Link, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const location = useLocation();
 
   const isHome = location.pathname === "/";
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 640); // Tailwind 'sm' breakpoint
+    };
+
+    handleResize(); // run on mount
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <nav
@@ -14,10 +27,17 @@ export default function Navbar() {
       }`}
     >
       <div className="w-full px-8 py-4 flex items-center justify-between">
-        {/* Logo */}
         <Link to="/">
           <img
-            src={isHome ? "/images/whitelogo.png" : "/images/blacklogo.png"}
+            src={
+              isMobile
+                ? isHome
+                  ? "/images/WhiteSmallLogo.png"
+                  : "/images/BlackSmallLogo.png"
+                : isHome
+                ? "/images/whitelogo.png"
+                : "/images/blacklogo.png"
+            }
             alt="Logo"
             className="h-20 w-auto"
           />
