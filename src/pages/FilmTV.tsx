@@ -14,7 +14,7 @@ export default function FilmTV() {
           <div className="relative">
             {/* Image */}
             <img
-              src="/images/noiceposter.jpg"
+              src="/images/libwni.jpeg"
               alt="Life Is Better With No Ice"
               className="w-full h-105 object-cover transform transition duration-500 group-hover:scale-110"
             />
@@ -41,7 +41,7 @@ export default function FilmTV() {
         >
           <div className="relative">
             <img
-              src="/images/TwelfthMan.jpeg"
+              src="/images/TwelfthMan.jpg"
               alt="The 12th Man"
               className="w-full h-105 object-cover transform transition duration-500 group-hover:scale-110"
             />
@@ -57,40 +57,50 @@ export default function FilmTV() {
             </div>
           </div>
         </Link>
-        <div className="relative">
-          <img
-            src="/images/BentRiver.JPG"
-            alt="Bent River"
-            className="w-full h-105 object-cover transform transition duration-500 group-hover:scale-110"
-          />
+        <Link
+          to="/film-tv/bentriver"
+          className="group block overflow-hidden rounded-lg"
+        >
+          <div className="relative">
+            <img
+              src="/images/BentRiver.jpeg"
+              alt="Bent River"
+              className="w-full h-105 object-cover transform transition duration-500 group-hover:scale-110"
+            />
 
-          <div className="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition duration-500"></div>
+            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition duration-500"></div>
 
-          <div className="absolute bottom-6 left-6 text-2xl font-semibold">
-            Bent River
+            <div className="absolute bottom-6 left-6 text-2xl font-semibold">
+              Bent River
+            </div>
+
+            <div className="absolute top-4 left-4 bg-white text-black text-xs px-3 py-1 rounded-full">
+              Development
+            </div>
           </div>
+        </Link>
+        <Link
+          to="/film-tv/degrees"
+          className="group block overflow-hidden rounded-lg"
+        >
+          <div className="relative">
+            <img
+              src="/images/Degrees.JPG"
+              alt="Degrees"
+              className="w-full h-105 object-cover transform transition duration-500 group-hover:scale-110"
+            />
 
-          <div className="absolute top-4 left-4 bg-white text-black text-xs px-3 py-1 rounded-full">
-            Development
+            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition duration-500"></div>
+
+            <div className="absolute bottom-6 left-6 text-2xl font-semibold">
+              Degrees
+            </div>
+
+            <div className="absolute top-4 left-4 bg-white text-black text-xs px-3 py-1 rounded-full">
+              Development
+            </div>
           </div>
-        </div>
-        <div className="relative">
-          <img
-            src="/images/Degrees.png"
-            alt="Degrees"
-            className="w-full h-105 object-cover transform transition duration-500 group-hover:scale-110"
-          />
-
-          <div className="absolute inset-0 bg-black/20 group-hover:bg-black/50 transition duration-500"></div>
-
-          <div className="absolute bottom-6 left-6 text-2xl font-semibold">
-            Degrees
-          </div>
-
-          <div className="absolute top-4 left-4 bg-white text-black text-xs px-3 py-1 rounded-full">
-            Development
-          </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

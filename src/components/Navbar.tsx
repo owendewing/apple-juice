@@ -53,9 +53,9 @@ export default function Navbar() {
             About
           </Link>
 
-          <a href="#contact" className="hover:opacity-60 transition-colors">
+          <Link to="/contact" className="hover:opacity-60 transition-colors">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
