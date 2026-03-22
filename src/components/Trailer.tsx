@@ -6,7 +6,7 @@ export default function Sizzle() {
   return (
     <>
       {/* Background Video Section */}
-      <div className="relative bg-black flex items-center justify-center h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] overflow-hidden">
+      <div className="relative bg-black flex items-center justify-center h-[40vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] overflow-hidden">
         <video
           src="/videos/LIFE_Trailer.mp4"
           loop

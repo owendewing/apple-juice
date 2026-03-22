@@ -44,7 +44,7 @@ export default function Navbar() {
         </Link>
 
         {/* Navigation */}
-        <div className="flex space-x-10 text-m font-main">
+        <div className="flex space-x-4 sm:space-x-6 md:space-x-10 text-m font-main">
           <Link to="/film-tv" className="hover:opacity-60 transition-colors">
             Film & TV
           </Link>
