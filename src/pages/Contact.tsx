@@ -3,22 +3,6 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    sendCopy: false,
-    title: "",
-    logline: "",
-    format: "",
-    relationship: "",
-    elements: "",
-    attached: "",
-    entity: "",
-    budget: "",
-    financing: "",
-    help: "",
-  });
-
   const formRef = useRef<HTMLFormElement>(null);
 
   const [contactData, setContactData] = useState({
@@ -26,16 +10,6 @@ export default function Contact() {
     contactEmail: "",
     message: "",
   });
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value, type, checked } = e.target as HTMLInputElement;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: type === "checkbox" ? checked : value,
-    }));
-  };
 
   const handleContactChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -141,7 +115,6 @@ export default function Contact() {
           name="name"
           placeholder="Name (First and Last)"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -150,12 +123,11 @@ export default function Contact() {
           name="email"
           placeholder="Email"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
         <label className="flex items-center gap-2">
-          <input type="checkbox" name="sendCopy" onChange={handleChange} />
+          <input type="checkbox" name="sendCopy" />
           Send me a copy of my responses
         </label>
 
@@ -164,7 +136,6 @@ export default function Contact() {
           name="title"
           placeholder="Title of Project"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -172,7 +143,6 @@ export default function Contact() {
           name="logline"
           placeholder="Logline"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -181,7 +151,6 @@ export default function Contact() {
           name="format"
           placeholder="Please describe your project's format"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -189,7 +158,6 @@ export default function Contact() {
           name="relationship"
           placeholder="What is your relationship to the project"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -197,7 +165,6 @@ export default function Contact() {
           name="elements"
           placeholder="What elements do you have completed"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -205,7 +172,6 @@ export default function Contact() {
           name="attached"
           placeholder="Who is attached to this project"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -213,7 +179,6 @@ export default function Contact() {
           name="entity"
           placeholder="Do you have a single purpose entity"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -222,7 +187,6 @@ export default function Contact() {
           name="budget"
           placeholder="Current budget"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -230,7 +194,6 @@ export default function Contact() {
           name="financing"
           placeholder="Do you have any financing attached"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
@@ -274,7 +237,6 @@ export default function Contact() {
           name="help"
           placeholder="How can AJWNI Entertainment help bring your project to life?"
           required
-          onChange={handleChange}
           className="w-full p-3 border rounded-lg"
         />
 
