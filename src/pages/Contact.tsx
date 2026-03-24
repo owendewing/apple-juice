@@ -127,7 +127,7 @@ export default function Contact() {
         />
 
         <label className="flex items-center gap-2">
-          <input type="checkbox" name="sendCopy" />
+          <input type="checkbox" name="sendCopy" value="Yes" />
           Send me a copy of my responses
         </label>
 
