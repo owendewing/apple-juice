@@ -29,7 +29,7 @@ export default function Contact() {
     emailjs
       .sendForm(
         "service_rx6m8we",
-        "template_4uulff3",
+        "template_z07wl4h",
         formRef.current,
         "-kIn3v6Y9CEdPu7Z0"
       )
