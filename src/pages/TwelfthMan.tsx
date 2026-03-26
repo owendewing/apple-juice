@@ -10,16 +10,16 @@ export default function TwelfthMan() {
         victories aren’t found on the scoreboard. 
       </p>
       <div className="space-y-3 text-black ">
-        <p>
+        <p className="font-third">
           <span className="font-main">Directed By:</span> Jillian Caforio
         </p>
 
-        <p>
+        <p className="font-third">
           <span className="font-main">Written By:</span> Jillian Caforio and Sam
           Jenson
         </p>
 
-        <p>
+        <p className="font-third">
           <span className="font-main">Producer:</span> Jillian Caforio
         </p>
       </div>

@@ -11,7 +11,7 @@ export default function BentRiver() {
         their deepest secrets and hidden pasts.
       </p>
       <div className="space-y-3 text-black ">
-        <p>
+        <p className="font-third">
           <span className="font-main">Written By:</span> Jillian Caforio and
           Jonathan Caforio
         </p>

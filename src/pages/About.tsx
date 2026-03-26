@@ -16,22 +16,22 @@ export default function About() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-8 py-20 text-lg leading-relaxed space-y-6 text-black font-secondary uppercase">
-        <p>
+      <div className="max-w-5xl mx-auto px-8 py-20 text-lg leading-relaxed space-y-6 text-black font-secondary">
+        <p className="font-third">
           AJWNI Entertainment is a next-generation entertainment company focused
           on producing and supporting film, television, and digital projects
           that authentically represent the special needs community.
         </p>
 
-        <p>
-          The company grew out of the award-winning short film Apple Juice with
-          No Ice and continues to expand through original productions, talent
+        <p className="font-third">
+          The company grew out of the award-winning short film "Apple Juice with
+          No Ice" and continues to expand through original productions, talent
           advocacy, and strategic partnerships across the industry. With a deep
           commitment to thoughtful inclusion, AJWNI Entertainment sits at the
           intersection of meaningful impact and compelling storytelling.
         </p>
 
-        <p>
+        <p className="font-third">
           We collaborate with filmmakers, studios, brands, and talent to develop
           emotionally grounded, commercially viable stories that reflect the
           full spectrum of human experience. From proof-of-concept shorts to
@@ -39,7 +39,7 @@ export default function About() {
           authentic inclusion on both sides of the camera.
         </p>
 
-        <p>
+        <p className="font-third">
           Whether we are producing original content, consulting on inclusive
           crewing/casting, or providing dedicated on-set support, our goal is
           the same: elevate storytelling while expanding who gets to be seen,
@@ -125,14 +125,14 @@ export default function About() {
               Jillian Caforio
             </h3>
 
-            <div className="space-y-4 text-black leading-relaxed text-secondary uppercase">
-              <p>
+            <div className="space-y-4 text-black leading-relaxed text-secondary">
+              <p className="font-third">
                 Jillian Caforio is a filmmaker whose work is shaped by empathy,
                 authenticity, and a lifelong commitment to inclusive
                 storytelling.
               </p>
 
-              <p>
+              <p className="font-third">
                 Her love for storytelling began on stage at a young age,
                 performing in roles such as Annie in Annie and Young Terk in
                 Tarzan. Now based in Los Angeles and having trained at Baron
@@ -140,34 +140,28 @@ export default function About() {
                 humanity to the screen.
               </p>
 
-              <p>
+              <p className="font-third">
                 Inspired by her brother, Calvin, who has special needs, Jillian
                 creates films that are grounded in lived experience and
                 challenge the industry to make inclusion a thoughtful choice
                 rather than a checklist item.
               </p>
 
-              <p>
+              <p className="font-third">
                 Jillian graduated from Loyola Marymount University in 2025 with
                 a double major in Marketing and Film, TV, and Media Studies.
               </p>
 
-              <p>
+              <p className="font-third">
                 Her short film directorial debut, Apple Juice with No Ice,
                 premiered at the 17th Annual Lady Filmmakers Film Festival,
                 earning an Honorable Mention.
               </p>
 
-              <p>
-                Her upcoming short documentary, Life Is Better with No Ice,
+              <p className="font-third">
+                Her upcoming short documentary, "Life Is Better with No Ice",
                 explores the power of authentic inclusion within the
                 entertainment industry.
-              </p>
-
-              <p>
-                In early 2026, Jillian will launch her own development,
-                production, and talent management company centered on special
-                needs inclusion in film and television.
               </p>
             </div>
           </div>

@@ -9,7 +9,7 @@ export default function Degrees() {
         anxiety, and identity... and that some lessons you can't learn in class.
       </p>
       <div className="space-y-3 text-black ">
-        <p>
+        <p className="font-third">
           <span className="font-main">Written By:</span> Jillian Caforio and
           Jonathan Caforio
         </p>

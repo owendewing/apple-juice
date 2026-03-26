@@ -5,6 +5,7 @@ export default {
       fontFamily: {
         main: ["TahomaBold", "sans-serif"],
         secondary: ["Maple", "sans-serif"],
+        third: ["Tahoma", "sans-serif"],
       },
     },
   },

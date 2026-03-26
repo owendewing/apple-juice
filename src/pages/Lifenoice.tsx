@@ -16,26 +16,26 @@ export default function LifeNoIce() {
       </p>
 
       <div className="space-y-3 text-black">
-        <p>
+        <p className="font-third">
           <span className="font-main text-black">Directed By:</span> Jillian
           Caforio
         </p>
 
-        <p>
+        <p className="font-third">
           <span className="font-main text-black">Starring:</span> Calvin
           Caforio, Jillian Caforio, Joey Travolta, Inclusion Films
         </p>
 
-        <p>
+        <p className="font-third">
           <span className="font-main text-black">Produced By:</span> Jillian
           Caforio
         </p>
 
-        <p>
+        <p className="font-third">
           <span className="font-main text-black">Release Date:</span> TBD
         </p>
 
-        <p>
+        <p className="font-third">
           <span className="font-main text-black">Rating:</span> Not Rated
         </p>
       </div>

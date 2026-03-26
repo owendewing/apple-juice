@@ -10,6 +10,11 @@
   src: url("/fonts/Maple-Regular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Tahoma";
+  src: url("/fonts/tahoma.ttf") format("truetype");
+}
+
 /* Tailwind utility classes */
 .font-main {
   font-family: "TahomaBold", sans-serif;
@@ -17,4 +22,8 @@
 
 .font-secondary {
   font-family: "Maple", sans-serif;
+}
+
+.font-third {
+  font-family: "Tahoma", sans-serif;
 }
