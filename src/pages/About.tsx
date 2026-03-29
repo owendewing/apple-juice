@@ -148,8 +148,8 @@ export default function About() {
               </p>
 
               <p className="font-third">
-                Jillian graduated from Loyola Marymount University in 2025 with
-                a double major in Marketing and Film, TV, and Media Studies.
+                Jillian graduated from Loyola Marymount University with a double
+                major in Marketing and Film, TV, and Media Studies.
               </p>
 
               <p className="font-third">

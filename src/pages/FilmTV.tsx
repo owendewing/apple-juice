@@ -2,10 +2,19 @@ import { Link } from "react-router-dom";
 
 export default function FilmTV() {
   return (
-    <div className="min-h-screen bg-[#F1F1F0] text-white px-12 pt-32 pb-20">
-      <h1 className="text-5xl mb-16 text-black font-main">Our Slate</h1>
+    <div className="min-h-screen bg-[#F1F1F0] text-white">
+      <div
+        className="h-[60vh] bg-cover bg-center flex items-end"
+        style={{ backgroundImage: "url('/images/AppleJuiceStill.jpeg')" }}
+      >
+        <div className=" w-full p-12">
+          <h1 className="text-white text-6xl font-secondary drop-shadow-[0_10px_30px_rgba(0,0,0,0.95)]">
+            OUR SLATE
+          </h1>
+        </div>
+      </div>
 
-      <div className="grid md:grid-cols-2 gap-12">
+      <div className="grid md:grid-cols-2 gap-12 px-12 pt-32 pb-20">
         {/* Life Is Better With No Ice */}
         <Link
           to="/film-tv/lifeisbetterwithnoice"

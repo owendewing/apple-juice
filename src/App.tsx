@@ -11,10 +11,12 @@ import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import BentRiver from "./pages/BentRiver";
 import Degrees from "./pages/Degrees";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
