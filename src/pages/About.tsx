@@ -154,15 +154,24 @@ export default function About() {
 
               <p className="font-third">
                 Her short film directorial debut, Apple Juice with No Ice,
-                premiered at the 17th Annual Lady Filmmakers Film Festival,
-                earning an Honorable Mention.
+                premiered at the 17th Annual Lady Filmmakers Film Festival.
               </p>
 
               <p className="font-third">
-                Her upcoming short documentary, "Life Is Better with No Ice",
-                explores the power of authentic inclusion within the
-                entertainment industry.
+                Her upcoming documentary, "Life Is Better with No Ice", explores
+                the power of authentic inclusion within the entertainment
+                industry.
               </p>
+              <div className="pt-6">
+                <a
+                  href="https://jilliancaforio.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-black text-white px-6 py-3 rounded-full font-main  text-sm tracking-wide hover:bg-gray-800 transition"
+                >
+                  Visit Personal Website
+                </a>
+              </div>
             </div>
           </div>
         </div>

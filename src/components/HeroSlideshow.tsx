@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 
 const images = [
-  "/images/hero1.jpeg",
   "/images/hero3.jpeg",
+  "/images/hero12.jpeg",
+  "/images/hero1.jpeg",
   "/images/hero4.jpeg",
   "/images/hero5.jpeg",
   "/images/hero6.jpeg",
@@ -11,7 +12,6 @@ const images = [
   "/images/hero9.jpeg",
   "/images/hero10.jpeg",
   "/images/hero11.jpeg",
-  "/images/hero12.jpeg",
 ];
 
 export default function HeroSlideshow() {
