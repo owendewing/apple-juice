@@ -3,7 +3,7 @@ export default function LifeNoIce() {
     <div className="min-h-screen bg-[#F1F1F0] text-black  ">
       <div
         className="h-[60vh] bg-cover bg-[center_30%] md:bg-[center_20%] lg:bg-[center_20%] flex items-end"
-        style={{ backgroundImage: "url('/images/libwni.jpeg')" }}
+        style={{ backgroundImage: "url('/images/C872DD6C-0955-4C0A-BA97-4684FBBE13D3.jpeg')" }}
       >
         <div className=" w-full p-12">
           <h1 className="text-white text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-secondary drop-shadow-[0_10px_30px_rgba(0,0,0,0.95)]">

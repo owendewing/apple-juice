@@ -23,7 +23,7 @@ export default function FilmTV() {
           <div className="relative">
             {/* Image */}
             <img
-              src="/images/libwni.jpeg"
+              src="/images/C872DD6C-0955-4C0A-BA97-4684FBBE13D3.jpeg"
               alt="Life Is Better With No Ice"
               className="w-full h-105 object-cover transform transition duration-500 group-hover:scale-110"
             />

@@ -3,7 +3,7 @@ export default function AnimationVideo() {
     <div className="w-full h-[40vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] overflow-hidden">
       {" "}
       <video
-        src="/videos/AJWNI-Animation.mp4"
+        src="/videos/animation.mp4"
         loop
         autoPlay
         playsInline

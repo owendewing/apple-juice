@@ -2,7 +2,7 @@ import HeroSlideshow from "../components/HeroSlideshow";
 import WhoWeAre from "../components/WhoWeAre";
 import AnimationVideo from "../components/Animation";
 import OurMission from "../components/OurMission";
-import Sizzle from "../components/Trailer";
+import DocumentaryStills from "../components/Trailer";
 import OurApproach from "../components/OurApproach";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <WhoWeAre />
       <AnimationVideo />
       <OurMission />
-      <Sizzle />
+      <DocumentaryStills />
       <OurApproach />
     </div>
   );
