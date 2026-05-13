@@ -25,7 +25,7 @@ export default function FilmTV() {
             <img
               src="/images/C872DD6C-0955-4C0A-BA97-4684FBBE13D3.jpeg"
               alt="Life Is Better With No Ice"
-              className="w-full h-105 object-cover transform transition duration-500 group-hover:scale-110"
+              className="w-full h-105 object-cover object-center scale-[1.08] transform transition duration-500 group-hover:scale-[1.14]"
             />
 
             {/* Dark overlay */}

@@ -2,7 +2,7 @@ export default function TwelfthMan() {
   return (
     <div className="min-h-screen bg-[#F1F1F0] text-white">
       <div
-        className="h-[60vh] bg-cover bg-[center_30%] md:bg-[center_20%] lg:bg-[center_20%] flex items-end"
+        className="h-[60vh] bg-cover bg-[center_12%] sm:bg-[center_18%] md:bg-[center_14%] lg:bg-[center_14%] flex items-end"
         style={{ backgroundImage: "url('/images/TwelfthMan.jpg')" }}
       >
         <div className=" w-full p-12">

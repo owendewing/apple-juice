@@ -1,11 +1,16 @@
 export default function LifeNoIce() {
   return (
     <div className="min-h-screen bg-[#F1F1F0] text-black  ">
-      <div
-        className="h-[60vh] bg-cover bg-[center_30%] md:bg-[center_20%] lg:bg-[center_20%] flex items-end"
-        style={{ backgroundImage: "url('/images/C872DD6C-0955-4C0A-BA97-4684FBBE13D3.jpeg')" }}
-      >
-        <div className=" w-full p-12">
+      <div className="relative h-[60vh] overflow-hidden flex items-end">
+        <div
+          aria-hidden
+          className="absolute -inset-[6%] bg-cover bg-[center_45%] sm:bg-[center_36%] md:bg-[center_24%] lg:bg-[center_24%]"
+          style={{
+            backgroundImage:
+              "url('/images/C872DD6C-0955-4C0A-BA97-4684FBBE13D3.jpeg')",
+          }}
+        />
+        <div className="relative z-10 w-full p-12">
           <h1 className="text-white text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-secondary drop-shadow-[0_10px_30px_rgba(0,0,0,0.95)]">
             LIFE IS BETTER WITH NO ICE
           </h1>
