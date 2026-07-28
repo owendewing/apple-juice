@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function About() {
   const [showBio, setShowBio] = useState(false);
+  const [showNikkiBio, setShowNikkiBio] = useState(false);
 
   return (
     <div className="bg-white text-black min-h-screen">
@@ -54,25 +55,48 @@ export default function About() {
 
       {/* LEADERSHIP */}
       <div className="max-w-6xl mx-auto px-8 pb-24">
-        <h2 className="text-4xl mb-12 font-main">Leadership</h2>
+        <h2 className="text-4xl mb-12 font-main">The Team</h2>
 
-        <div className="flex flex-col items-center">
-          <img
-            src="/images/Jillian.jpeg"
-            alt="Jillian Caforio"
-            className="w-70 h-90 object-cover rounded-lg mb-6"
-          />
+        <div className="flex justify-center gap-12 flex-wrap">
+          {/* Jillian */}
+          <div className="flex flex-col items-center">
+            <img
+              src="/images/Jillian.jpeg"
+              alt="Jillian Caforio"
+              className="w-70 h-90 object-cover rounded-lg mb-6"
+            />
 
-          <h3 className="text-2xl font-main">Jillian Caforio</h3>
+            <h3 className="text-2xl font-main">Jillian Caforio</h3>
 
-          <p className="text-gray-400 mb-6 font-main">President & CEO</p>
+            <p className="text-gray-400 mb-6 font-main">President & CEO</p>
 
-          <button
-            onClick={() => setShowBio(true)}
-            className="-my-2 hover:text-gray-400 transition cursor-pointer font-secondary uppercase"
-          >
-            Read Bio
-          </button>
+            <button
+              onClick={() => setShowBio(true)}
+              className="-my-2 hover:text-gray-400 transition cursor-pointer font-secondary uppercase"
+            >
+              Read Bio
+            </button>
+          </div>
+
+          {/* Nicole */}
+          <div className="flex flex-col items-center">
+            <img
+              src="/images/nikki.JPEG"
+              alt="Nicole Dwyer"
+              className="w-70 h-90 object-cover rounded-lg mb-6"
+            />
+
+            <h3 className="text-2xl font-main">Nicole Dwyer</h3>
+
+            <p className="text-gray-400 mb-6 font-main">Editor</p>
+
+            <button
+              onClick={() => setShowNikkiBio(true)}
+              className="-my-2 hover:text-gray-400 transition cursor-pointer font-secondary uppercase"
+            >
+              Read Bio
+            </button>
+          </div>
         </div>
       </div>
 
@@ -172,6 +196,47 @@ export default function About() {
                   Visit Personal Website
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+      {showNikkiBio && (
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center p-8 z-50">
+          <div className="relative bg-white max-w-3xl p-10 overflow-y-auto max-h-[80vh]">
+            <button
+              onClick={() => setShowNikkiBio(false)}
+              className="absolute top-6 right-6 text-2xl text-gray-400 hover:text-black cursor-pointer"
+            >
+              ×
+            </button>
+            <h3 className="text-3xl mb-6 text-black font-main">Nicole Dwyer</h3>
+
+            <div className="space-y-4 text-black leading-relaxed text-secondary">
+              <p className="font-third">
+                Nicole Dwyer is the Head of Post Production at AJWNI
+                Entertainment, where she oversees post-production workflows from
+                ingest through final delivery while ensuring every project meets
+                the highest creative and technical standards.
+              </p>
+
+              <p className="font-third">
+                A passionate editor at heart, Nicole believes the edit is where
+                stories truly come to life, combining creative intuition with a
+                deep understanding of the technical processes that drive modern
+                post production. Her experience spans narrative films,
+                documentaries, sports media, trailers, and digital content, with
+                expertise in media management and story shaping. Having worked
+                across productions at Tennis Channel, Paramount, and numerous
+                independent films, she brings both creative vision and
+                operational precision to every project.
+              </p>
+
+              <p className="font-third">
+                Nicole is dedicated to building efficient post-production
+                pipelines that empower filmmakers to focus on storytelling while
+                delivering polished, impactful content from first cut to final
+                master.
+              </p>
             </div>
           </div>
         </div>
