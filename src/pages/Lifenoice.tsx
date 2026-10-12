@@ -37,7 +37,7 @@ export default function LifeNoIce() {
           </p>
 
           <p className="font-third">
-            <span className="font-main text-black">Featuring:</span>Calvin
+            <span className="font-main text-black">Featuring: </span>Calvin
             Caforio, Kara Caforio, Jillian Caforio, Joey Travolta, Inclusion
             Films
           </p>
