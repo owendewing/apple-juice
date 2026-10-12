@@ -14,10 +14,12 @@ export default function TwelfthMan() {
 
       <div className=" px-12 pt-10 pb-20">
         <p className="text-lg text-black mb-10 leading-relaxed font-secondary uppercase">
-          Inspired by a true story, a promising high school quarterback chasing
-          a state title forms an unexpected friendship with Miles, a boy with
-          special needs whose presence around the team reveals that the greatest
-          victories aren’t found on the scoreboard. 
+          Inspired by a true story, Miles, a teenager with intellectual
+          disabilities and a deep passion for football, gets an unlikely
+          opportunity to become his high school team's manager. As he struggles
+          to overcome his fears and earn his place among the players, his
+          determination and infectious personality help forge an extraordinary
+          bond with a team chasing a state championship.
         </p>
         <div className="space-y-3 text-black ">
           <p className="font-third">
@@ -25,8 +27,7 @@ export default function TwelfthMan() {
           </p>
 
           <p className="font-third">
-            <span className="font-main">Written By:</span> Jillian Caforio and
-            Sam Jenson
+            <span className="font-main">Written By:</span> Jillian Caforio
           </p>
 
           <p className="font-third">

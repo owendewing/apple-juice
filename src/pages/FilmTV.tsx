@@ -38,7 +38,7 @@ export default function FilmTV() {
 
             {/* Status tab */}
             <div className="absolute top-4 left-4 bg-white text-black text-xs px-3 py-1 rounded-full">
-              Post-Production
+              Completed
             </div>
           </div>
         </Link>

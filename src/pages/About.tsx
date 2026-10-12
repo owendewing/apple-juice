@@ -4,7 +4,7 @@ export default function About() {
   const [showBio, setShowBio] = useState(false);
   const [showNikkiBio, setShowNikkiBio] = useState(false);
   const [showSethBio, setShowSethBio] = useState(false);
-  const [showSamBio, setShowSamBio] = useState(false);
+  const [showCalvinBio, setShowCalvinBio] = useState(false);
   const [showOwenBio, setShowOwenBio] = useState(false);
 
   return (
@@ -22,9 +22,18 @@ export default function About() {
 
       <div className="max-w-5xl mx-auto px-8 py-20 text-lg leading-relaxed space-y-6 text-black font-secondary">
         <p className="font-third">
-          AJWNI Entertainment is a next-generation entertainment company focused
-          on producing and supporting film, television, and digital projects
-          that authentically represent the special needs community.
+          AJWNI Entertainment is a next-generation entertainment company,
+          founded by{" "}
+          <a
+            href="https://jilliancaforio.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:opacity-70 transition-opacity"
+          >
+            Jillian Caforio
+          </a>
+          , focused on producing and supporting film, television, and digital
+          projects that authentically represent the special needs community.
         </p>
 
         <p className="font-third">
@@ -149,17 +158,17 @@ export default function About() {
           {/* Sam */}
           <div className="flex flex-col items-center">
             <img
-              src="/images/Sam.jpeg"
-              alt="Sam Jenson"
+              src="/images/Calvin.JPG"
+              alt="Calvin Caforio"
               className="w-70 h-90 object-cover rounded-lg mb-6"
             />
 
-            <h3 className="text-2xl font-main">Sam Jenson</h3>
+            <h3 className="text-2xl font-main">Calvin Caforio</h3>
 
-            <p className="text-gray-400 mb-6 font-main">Writer/Director</p>
+            <p className="text-gray-400 mb-6 font-main">Actor</p>
 
             <button
-              onClick={() => setShowSamBio(true)}
+              onClick={() => setShowCalvinBio(true)}
               className="-my-2 hover:text-gray-400 transition cursor-pointer font-secondary uppercase"
             >
               Read Bio
@@ -399,42 +408,43 @@ export default function About() {
           </div>
         </div>
       )}
-      {showSamBio && (
+      {showCalvinBio && (
         <div className="fixed inset-0 bg-black/80 flex items-center justify-center p-8 z-50">
           <div className="relative bg-white max-w-3xl p-10 overflow-y-auto max-h-[80vh]">
             <button
-              onClick={() => setShowSamBio(false)}
+              onClick={() => setShowCalvinBio(false)}
               className="absolute top-6 right-6 text-2xl text-gray-400 hover:text-black cursor-pointer"
             >
               ×
             </button>
-            <h3 className="text-3xl mb-6 text-black font-main">Sam Jenson</h3>
+            <h3 className="text-3xl mb-6 text-black font-main">
+              Calvin Caforio
+            </h3>
 
             <div className="space-y-4 text-black leading-relaxed text-secondary">
               <p className="font-third">
-                Sam Jenson is an independent filmmaker drawn to characters who
-                are quietly working to hold onto themselves inside systems
-                bigger than they are, families, institutions, the past. His work
-                favors emotional honesty over spectacle, and he’s more
-                interested in the small, specific moments that reveal who
-                someone really is than in plot for plot’s sake.
+                Calvin Caforio is an actor managed by his sister, filmmaker
+                Jillian Caforio, through AJWNI Entertainment. He began
+                performing in high school through All Drama, a program for
+                actors with special needs. His first on-camera project was Baked
+                to Perfection. He made his short film debut as Miles in Apple
+                Juice with No Ice, earning Best Supporting Actor at the 17th
+                Annual Lady Filmmakers Festival.
               </p>
-
               <p className="font-third">
-                He writes real characters with real problems. Sam has written
-                ten feature screenplays and collaborated with a member of the
-                Writers Guild of America on a spec script. In 2025, he wrote,
-                directed, and produced his first feature, Reminiscing, an
-                intimate drama about a brother and sister piecing through their
-                shared past, and the memories that hold them together and apart.
+                Most recently, Calvin appeared in a supporting role in an
+                independent drama short, filmed in summer 2026. He is also
+                featured in the upcoming documentary Life Is Better with No Ice,
+                alongside members of his family, Joey Travolta, and members of
+                Inclusion Films. Both films are headed to the festival circuit
+                in 2027. He is currently attached to multiple projects in
+                development.
               </p>
-
               <p className="font-third">
-                His short films have screened at the Independent Shorts Awards,
-                the Los Angeles Life Off Festival, and the San Francisco
-                Arthouse Short Festival, with one screening selling out its
-                200-seat venue, a small but telling sign that audiences are
-                connecting with the stories he’s telling.
+                Calvin lives with cerebral palsy, global apraxia, and an
+                intellectual disability. He brings focus, heart, infectious
+                energy, and a collaborative spirit to every set. He attends the
+                University of Wisconsin–Whitewater through its LIFE program.
               </p>
             </div>
           </div>
